@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.capcha-container {
+    background-color: rgb(2, 221, 2);
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+#capchaText {
+    user-select: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    width: 60%;
+    height: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    left: 0;
+    top: 0;
+    margin: 5px;
+    background-color: black;
+    color: orange;
+}
+
+#inCapcha {
+    position: absolute;
+    display: block;
+    padding: 8px;
+    width: 60%;
+    height: 30px;
+    font-size: large;
+    font-weight: bold;
+    bottom: 0;
+    left: 0;
+    margin: 10px 5px;
+    outline: none;
+}
+
+#refreshIcon {
+    position: absolute;
+    width: 34%;
+    right: 0;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 2px;
+    background: coral;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+    user-select: none;
+}
+
+#refreshIcon:hover {
+    background-color: black;
+    color: coral;
+    font-weight: bold;
+}
+
+#btnCheck {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 25px;
+    margin: 12px 5px;
+    cursor: pointer;
+}
